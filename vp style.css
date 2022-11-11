@@ -1,0 +1,137 @@
+body{
+    background-image: url(./beige.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contact{ color: orangered;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-style:initial;
+    text-align: center;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px 2px black;}
+    #contact::first-letter{
+        font-size: 100px;
+        }
+        #me{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border-style: solid;
+            border-radius: 200px;
+        }
+    #name{
+        color: orangered;
+            font-family:cursive;
+        text-indent: 30px;
+           text-shadow: 1px 0px 1px black;
+           letter-spacing: 10px;
+           font-size: 25px;
+           display: flex;justify-content: flex-start;
+          align-items: flex-start;
+           
+    }
+    #name::first-letter{
+        font-size:50px;
+    }
+    #wa{
+        color: orangered;
+            font-family:cursive;
+          font-size: 20px;
+           text-shadow: 1px 1px 1px black;
+           letter-spacing: 10px;
+           word-spacing: 20px;
+           transition: 1s;
+           border-radius: 5px;
+           text-decoration: none;
+           
+                   
+    }
+    #wa:hover{
+        background-color: orangered;
+        color: beige;
+        padding: 5px;
+      
+    }
+   
+    #mail{
+        color: orangered;
+            font-family:cursive;
+          font-size: 20px;
+           text-shadow: 1px 1px 1px black;
+           letter-spacing: 10px;
+           word-spacing: 20px;
+           transition: 1s;
+           border-radius: 5px;
+           
+           
+                   text-decoration: none;
+    }
+    #mail:hover{
+        background-color: orangered;
+        color: beige;
+        padding: 5px;
+    }
+    #insta{
+        color: orangered;
+            font-family:cursive;
+          font-size: 20px;
+           text-shadow: 1px 1px 1px black;
+           letter-spacing: 10px;
+           word-spacing: 20px;
+           transition: 1s;
+           border-radius: 5px;
+           
+           
+                   text-decoration: none;
+    }
+#insta:hover{
+    background-color: orangered;
+        color: beige;
+        padding: 5px;
+}
+#submit{
+    color: orangered;
+    font-family:cursive;
+  font-size: 20px;
+   text-shadow: 1px 1px 1px black;
+   letter-spacing: 10px;
+   word-spacing: 20px;
+   transition: 1s;
+   border-radius: 5px;
+}
+#submit:hover{
+    background-color: orangered;
+    color: beige;
+    padding: 5px;
+    cursor: pointer;
+}
+#list{
+    text-decoration: none;
+    display: inline;
+}
+#me1{
+   shape-rendering: crispEdges;
+}
+#good{
+    text-decoration: none;
+    font-family:cursive;
+    color: orangered;
+    transition: 1s;
+    font-size: 30px;
+    border-radius: 3px;
+    text-shadow:1px 1px 1px whitesmoke;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    text-shadow: 0px 2px 2px black;
+   
+}
+#good:hover{
+    background-color: orangered;
+    color: beige;
+    padding: 5px;
+}
